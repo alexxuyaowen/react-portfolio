@@ -8,9 +8,8 @@ import Skills from './pages/Skills';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/react-portfolio'>
       <Routes>
-        <Route path='/' element={<About />} />
         <Route path='/about' element={<About />} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/education' element={<Education />} />
