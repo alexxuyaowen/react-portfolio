@@ -11,7 +11,7 @@ const Navbar = props => {
           <li>
             <NavLink
               to='/about'
-              className={({ isActive }) => isActive && 'active'}
+              className={({ isActive }) => (isActive ? 'active' : '')}
             >
               About
             </NavLink>
@@ -19,7 +19,7 @@ const Navbar = props => {
           <li>
             <NavLink
               to='/experience'
-              className={({ isActive }) => isActive && 'active'}
+              className={({ isActive }) => (isActive ? 'active' : '')}
             >
               Experience
             </NavLink>
@@ -27,20 +27,23 @@ const Navbar = props => {
           <li>
             <NavLink
               to='/education'
-              className={({ isActive }) => isActive && 'active'}
+              className={({ isActive }) => (isActive ? 'active' : '')}
             >
               Education
             </NavLink>
           </li>
           {/* <li>
-            <NavLink to='/projects' activeClassName='active'>
+            <NavLink
+              to='/projects'
+              className={({ isActive }) => (isActive ? 'active' : '')}
+            >
               Projects
             </NavLink>
           </li> */}
           <li>
             <NavLink
               to='/skills'
-              className={({ isActive }) => isActive && 'active'}
+              className={({ isActive }) => (isActive ? 'active' : '')}
             >
               Skills
             </NavLink>
@@ -48,7 +51,7 @@ const Navbar = props => {
           <li>
             <NavLink
               to='/contact'
-              className={({ isActive }) => isActive && 'active'}
+              className={({ isActive }) => (isActive ? 'active' : '')}
             >
               Contact
             </NavLink>
