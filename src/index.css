@@ -43,7 +43,7 @@ a {
 }
 
 .navbar a:hover,
-.navbar a:active,
+/* .navbar :active, */
 .navbar a.active {
   color: #3b7ea1;
 }

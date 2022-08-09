@@ -3,23 +3,32 @@ import { NavLink } from 'react-router-dom';
 const Navbar = props => {
   return (
     <header className='header'>
-      <h1 className='myName'>
+      <h1>
         <NavLink to='/'>Alex Xu</NavLink>
       </h1>
       <nav className='navbar'>
         <ul>
           <li>
-            <NavLink to='/about' activeClassName='active'>
+            <NavLink
+              to='/about'
+              className={({ isActive }) => isActive && 'active'}
+            >
               About
             </NavLink>
           </li>
           <li>
-            <NavLink to='/experience' activeClassName='active'>
+            <NavLink
+              to='/experience'
+              className={({ isActive }) => isActive && 'active'}
+            >
               Experience
             </NavLink>
           </li>
           <li>
-            <NavLink to='/education' activeClassName='active'>
+            <NavLink
+              to='/education'
+              className={({ isActive }) => isActive && 'active'}
+            >
               Education
             </NavLink>
           </li>
@@ -29,12 +38,18 @@ const Navbar = props => {
             </NavLink>
           </li> */}
           <li>
-            <NavLink to='/skills' activeClassName='active'>
+            <NavLink
+              to='/skills'
+              className={({ isActive }) => isActive && 'active'}
+            >
               Skills
             </NavLink>
           </li>
           <li>
-            <NavLink to='/contact' activeClassName='active'>
+            <NavLink
+              to='/contact'
+              className={({ isActive }) => isActive && 'active'}
+            >
               Contact
             </NavLink>
           </li>
