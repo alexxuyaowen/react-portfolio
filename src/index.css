@@ -1,6 +1,7 @@
 :root {
   --berkeley-blue: #003262;
   --california-gold-hex: #fdb515;
+  --grey: #eeeeee;
 }
 
 * {
@@ -10,7 +11,7 @@
 body {
   font-family: sans-serif;
   margin: 0;
-  background-color: #eeeeee;
+  background-color: var(--grey);
   background-image: url('./assets/background_wall.png');
 }
 
@@ -78,4 +79,64 @@ a {
 .contact h1 {
   margin-left: 30px;
   display: inline;
+}
+
+/* Skills */
+
+.skills {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.skill {
+  padding: 10px;
+  width: 80%;
+  height: 180px;
+  background-color: var(--california-gold-hex);
+  border-radius: 10px;
+}
+
+.skill:hover {
+  opacity: 0.8;
+}
+
+.skill h2 {
+  color: white;
+  font-size: 27px;
+  font-weight: 400;
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+}
+
+.logos {
+  display: flex;
+}
+
+.logos img {
+  display: inline-flex;
+  position: relative;
+  bottom: 10px;
+  height: 80px;
+  padding: 0 25px;
+}
+
+#sql {
+  padding-left: 40px;
+}
+
+#jest {
+  position: relative;
+  top: 1px;
+  transform: scale(2.75);
+}
+
+#express {
+  position: relative;
+  top: 8px;
+  height: 50px;
 }

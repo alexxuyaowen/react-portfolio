@@ -5,7 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 
-const Contact = props => {
+const Contact = () => {
   return (
     <Fragment>
       <Navbar />
