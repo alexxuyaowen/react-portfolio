@@ -15,8 +15,8 @@ const About = props => {
           alongside with Redux, RESTful API, Material UI, Bootstrap. Experienced
           in writing unit tests using jest and react testing library. Having a
           solid knowledge of node, express and SQL. Able to quickly adapt to new
-          technologies, as well as effectively communicate and collaborate
-          within a team.
+          technologies as well as effectively communicate and collaborate in a
+          team setting.
         </p>
       </div>
     </Fragment>
