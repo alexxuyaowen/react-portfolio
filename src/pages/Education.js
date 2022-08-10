@@ -16,7 +16,7 @@ const Education = props => {
         <div className='text-box'>
           <h1>University of Califonia, Berkeley</h1>
           <h2>Bachelor of Arts in Computer Science</h2>
-          <p>Aug 2018 - Dec 2021</p>
+          <p>Aug. 2018 - Dec. 2021</p>
           <ul>
             <li
               onClick={() =>

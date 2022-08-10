@@ -1,6 +1,8 @@
 :root {
   --berkeley-blue: #003262;
   --california-gold-hex: #fdb515;
+  --content-background: #fdb41564;
+  --color-active: #3b7ea1;
   --grey: #eeeeee;
 }
 
@@ -48,18 +50,18 @@ a {
 .navbar a:hover,
 /* .navbar :active, */
 .navbar a.active {
-  color: #3b7ea1;
+  color: var(--color-active);
 }
 
 /* Contact */
 
 .contacts {
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   gap: 100px;
-  transform: translateY(50%);
 }
 
 .contact {
@@ -96,16 +98,16 @@ a {
   padding: 10px;
   width: 80%;
   height: 180px;
-  background-color: var(--california-gold-hex);
+  background-color: var(--content-background);
   border-radius: 10px;
 }
 
 .skill:hover {
-  opacity: 0.8;
+  background-color: var(--california-gold-hex);
 }
 
 .skill h2 {
-  color: white;
+  color: var(--berkeley-blue);
   font-size: 27px;
   font-weight: 400;
   position: relative;
@@ -174,15 +176,14 @@ a {
 }
 
 .education ul {
-  margin-top: 30px;
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
-  position: relative;
-  right: 25px;
+  padding-left: 15px;
 }
 
 .education li {
-  line-height: 2.5;
+  line-height: 2;
   width: fit-content;
   cursor: pointer;
 }
@@ -194,6 +195,7 @@ a {
 /* About */
 
 .about {
+  margin-top: 100px;
   display: flex;
   justify-content: space-around;
   padding: 0 20%;
@@ -209,4 +211,50 @@ a {
   padding-top: 50px;
   line-height: 1.5;
   font-size: 18px;
+}
+
+/* Experience */
+
+.experiences {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.experience {
+  padding: 5px 30px;
+  width: 70%;
+  background-color: var(--content-background);
+  border-radius: 10px;
+}
+
+.experience:hover {
+  background-color: var(--california-gold-hex);
+}
+
+.experience h2 {
+  margin: 15px 0;
+  color: var(--berkeley-blue);
+}
+
+.experience h3 {
+  margin: 6px 0;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.experience p {
+  margin: 0;
+}
+
+.experience ul {
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.experience li {
+  line-height: 1.5;
+  width: fit-content;
 }

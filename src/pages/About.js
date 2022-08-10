@@ -10,7 +10,7 @@ const About = props => {
       <div className='about'>
         <img src={ProfilePic} alt='Profile Picture' />
         <p>
-          Front-end engineer with 4 years of experience in web development, with
+          Front-end engineer with 5 years of experience in web development, with
           specialization in React, HTML, CSS, and JavaScript with TypeScript,
           alongside with Redux, RESTful API, Material UI, Bootstrap. Experienced
           in writing unit tests using jest and react testing library. Having a
