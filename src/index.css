@@ -140,3 +140,53 @@ a {
   top: 8px;
   height: 50px;
 }
+
+/* Education */
+
+.education {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-box {
+  width: 490px;
+}
+
+.education img {
+  margin: 40px auto 20px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.education h1 {
+  text-align: center;
+}
+
+.education h2 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.education p {
+  font-size: 16px;
+}
+
+.education ul {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 25px;
+}
+
+.education li {
+  line-height: 2.5;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.education li:hover {
+  color: var(--california-gold-hex);
+}

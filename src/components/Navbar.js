@@ -18,18 +18,18 @@ const Navbar = props => {
           </li>
           <li>
             <NavLink
-              to='/experience'
+              to='/skills'
               className={({ isActive }) => (isActive ? 'active' : '')}
             >
-              Experience
+              Skills
             </NavLink>
           </li>
           <li>
             <NavLink
-              to='/education'
+              to='/experience'
               className={({ isActive }) => (isActive ? 'active' : '')}
             >
-              Education
+              Experience
             </NavLink>
           </li>
           {/* <li>
@@ -42,10 +42,10 @@ const Navbar = props => {
           </li> */}
           <li>
             <NavLink
-              to='/skills'
+              to='/education'
               className={({ isActive }) => (isActive ? 'active' : '')}
             >
-              Skills
+              Education
             </NavLink>
           </li>
           <li>
