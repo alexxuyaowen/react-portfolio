@@ -1,11 +1,14 @@
+import { Fragment } from 'react';
 import Navbar from '../components/Navbar';
 
 const Skills = props => {
   return (
-    <>
+    <Fragment>
       <Navbar />
-      <h1>Skills</h1>
-    </>
+      <div className='skill'>
+        <h1>Languages</h1>
+      </div>
+    </Fragment>
   );
 };
 

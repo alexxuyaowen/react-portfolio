@@ -10,12 +10,12 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path='about' element={<About />} />
-        <Route path='experience' element={<Experience />} />
-        <Route path='education' element={<Education />} />
-        <Route path='projects' element={<Projects />} />
-        <Route path='skills' element={<Skills />} />
-        <Route path='contact' element={<Contact />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/experience' element={<Experience />} />
+        <Route path='/education' element={<Education />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/skills' element={<Skills />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<About />} />
       </Routes>
     </HashRouter>
