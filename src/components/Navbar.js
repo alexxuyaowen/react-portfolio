@@ -13,7 +13,7 @@ const Navbar = props => {
               to='/about'
               className={({ isActive }) => (isActive ? 'active' : '')}
             >
-              About
+              About Me
             </NavLink>
           </li>
           <li>

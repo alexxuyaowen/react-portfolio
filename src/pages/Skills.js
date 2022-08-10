@@ -53,6 +53,7 @@ const Skills = () => {
             <img src={ReactLogo} alt='React' />
             <img src={JQueryLogo} alt='jQuery' />
             <img src={BootstrapLogo} alt='Bootstrap' />
+            <img src='https://mui.com/static/logo.png' alt='Material UI' />
             <img src={SassLogo} alt='Sass' />
             <img src={ReduxLogo} alt='Redux' />
             <img id='jest' src={JestLogo} alt='Jest' />
