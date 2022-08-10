@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.73dfffd6.css",
-    "main.js": "/react-portfolio/static/js/main.0d6c049c.js",
+    "main.css": "/react-portfolio/static/css/main.27fd5f76.css",
+    "main.js": "/react-portfolio/static/js/main.70b7f1bc.js",
     "static/media/profile.JPG": "/react-portfolio/static/media/profile.ec543f83bc4697782090.JPG",
     "static/media/ucb-logo.png": "/react-portfolio/static/media/ucb-logo.f8e508632943d15308b2.png",
     "static/media/background_wall.png": "/react-portfolio/static/media/background_wall.e6642b07c7b7bf9ef673.png",
@@ -21,11 +21,11 @@
     "static/media/figma-logo.svg": "/react-portfolio/static/media/figma-logo.72ff35026c53ba574aef54c980db0e8d.svg",
     "static/media/js-logo.svg": "/react-portfolio/static/media/js-logo.b879f838faf1cb951d1c2230fd933a39.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.73dfffd6.css.map": "/react-portfolio/static/css/main.73dfffd6.css.map",
-    "main.0d6c049c.js.map": "/react-portfolio/static/js/main.0d6c049c.js.map"
+    "main.27fd5f76.css.map": "/react-portfolio/static/css/main.27fd5f76.css.map",
+    "main.70b7f1bc.js.map": "/react-portfolio/static/js/main.70b7f1bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.73dfffd6.css",
-    "static/js/main.0d6c049c.js"
+    "static/css/main.27fd5f76.css",
+    "static/js/main.70b7f1bc.js"
   ]
 }
