@@ -1,4 +1,6 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Education from './pages/Education';
@@ -9,6 +11,7 @@ import Skills from './pages/Skills';
 function App() {
   return (
     <HashRouter>
+      <Navbar />
       <Routes>
         <Route path='/about' element={<About />} />
         <Route path='/experience' element={<Experience />} />
