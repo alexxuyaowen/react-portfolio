@@ -5,7 +5,8 @@ import CLogo from '../assets/c-logo.svg';
 import SQLLogo from '../assets/sql-logo.svg';
 
 import ReactLogo from '../assets/react-logo.svg';
-import VueLogo from '../assets/vue-logo.svg';
+// import VueLogo from '../assets/vue-logo.svg';
+import AngularLogo from '../assets/angular-logo.svg';
 import JQueryLogo from '../assets/jquery-logo.svg';
 import BootstrapLogo from '../assets/bootstrap-logo.svg';
 import SassLogo from '../assets/sass-logo.svg';
@@ -46,7 +47,8 @@ const Skills = () => (
       <h2>Web Technologies</h2>
       <div className='logos'>
         <img src={ReactLogo} alt='React' />
-        <img src={VueLogo} alt='Vue' />
+        {/* <img src={VueLogo} alt='Vue' /> */}
+        <img src={AngularLogo} alt='Angular' />
         <img src={JQueryLogo} alt='jQuery' />
         <img src={BootstrapLogo} alt='Bootstrap' />
         <img src='https://mui.com/static/logo.png' alt='Material UI' />
