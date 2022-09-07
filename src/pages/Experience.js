@@ -18,10 +18,6 @@ const Experience = () => (
           scalability and code readability.
         </li>
         <li>
-          Constructed RESTful API endpoints for front end to communicate with
-          back end.
-        </li>
-        <li>
           Fulfilled responsive web development, including building grids by
           using Material UI components such as dropdown menus, tables, alerts,
           forms, etc.
@@ -59,7 +55,6 @@ const Experience = () => (
           Coped with React shared states using Redux and enhanced code
           reusability by creating action creators.
         </li>
-        <li>Constructed RESTful APIs by using Express and Node.</li>
         <li>
           Adopted Travis CI for automated building of the application, including
           unit testing with Jest and React-Testing-Library.
