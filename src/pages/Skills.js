@@ -12,11 +12,11 @@ import BootstrapLogo from '../assets/bootstrap-logo.svg';
 import SassLogo from '../assets/sass-logo.svg';
 import ReduxLogo from '../assets/redux-logo.svg';
 import JestLogo from '../assets/jest-logo.svg';
-import BabelLogo from '../assets/babel-logo.svg';
 
 import ExpressLogo from '../assets/express-logo.svg';
 import JiraLogo from '../assets/jira-logo.svg';
 import FigmaLogo from '../assets/figma-logo.svg';
+import GitLogo from '../assets/git-logo.svg';
 
 const Skills = () => (
   <div className='skills'>
@@ -66,10 +66,10 @@ const Skills = () => (
           src='https://avatars.githubusercontent.com/u/6078720?s=200&v=4'
           alt='npm'
         />
+        <img src={GitLogo} alt='Git' />
         <img src={JiraLogo} alt='Jira' />
         <img src='https://nodejs.org/static/images/logo.svg' alt='Node' />
         <img id='express' src={ExpressLogo} alt='Express' />
-        <img src={BabelLogo} alt='Babel' />
       </div>
     </div>
   </div>

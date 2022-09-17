@@ -32,14 +32,14 @@ const Navbar = props => {
               Experience
             </NavLink>
           </li>
-          {/* <li>
+          <li>
             <NavLink
               to='/projects'
               className={({ isActive }) => (isActive ? 'active' : '')}
             >
               Projects
             </NavLink>
-          </li> */}
+          </li>
           <li>
             <NavLink
               to='/education'
