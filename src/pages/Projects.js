@@ -1,11 +1,10 @@
 const Projects = () => (
   <div className='projects'>
-    <img
-      src='https://raw.githubusercontent.com/alexxuyaowen/gofive/main/demo/demo.png'
-      alt='GoFive'
-      onClick={() =>
-        window.open('https://github.com/alexxuyaowen/gofive', '_blank')
-      }
+    <iframe
+      src='https://alexxuyaowen.github.io/gofive/'
+      title='GoFive'
+      width='700'
+      height='800'
     />
 
     <img

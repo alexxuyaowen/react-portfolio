@@ -262,21 +262,27 @@ a {
 
 .projects {
   display: flex;
-  gap: 100px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
 
 .projects img {
-  width: 30%;
+  width: 700px;
   height: auto;
   cursor: pointer;
+  margin-bottom: 40px;
+  border-radius: 10px;
 }
 
 .projects img:hover {
   opacity: 0.8;
   scale: 1.1;
+}
+
+.projects iframe {
+  margin-bottom: 40px;
+  border-radius: 10px;
 }
 
 /* General */
