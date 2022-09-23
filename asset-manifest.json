@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.01321b29.css",
-    "main.js": "/react-portfolio/static/js/main.a67967a4.js",
+    "main.css": "/react-portfolio/static/css/main.fdb47202.css",
+    "main.js": "/react-portfolio/static/js/main.b175dee2.js",
     "static/media/profile.JPG": "/react-portfolio/static/media/profile.ec543f83bc4697782090.JPG",
     "static/media/ucb-logo.png": "/react-portfolio/static/media/ucb-logo.f8e508632943d15308b2.png",
     "static/media/background_wall.png": "/react-portfolio/static/media/background_wall.e6642b07c7b7bf9ef673.png",
@@ -22,11 +22,11 @@
     "static/media/angular-logo.svg": "/react-portfolio/static/media/angular-logo.28ae4f3c6c193d04113e4767a73b86bc.svg",
     "static/media/js-logo.svg": "/react-portfolio/static/media/js-logo.b879f838faf1cb951d1c2230fd933a39.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.01321b29.css.map": "/react-portfolio/static/css/main.01321b29.css.map",
-    "main.a67967a4.js.map": "/react-portfolio/static/js/main.a67967a4.js.map"
+    "main.fdb47202.css.map": "/react-portfolio/static/css/main.fdb47202.css.map",
+    "main.b175dee2.js.map": "/react-portfolio/static/js/main.b175dee2.js.map"
   },
   "entrypoints": [
-    "static/css/main.01321b29.css",
-    "static/js/main.a67967a4.js"
+    "static/css/main.fdb47202.css",
+    "static/js/main.b175dee2.js"
   ]
 }
